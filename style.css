@@ -5,7 +5,6 @@
 }
 body{
     width: 100%;
-
     height: 100%;
 }
 .main{
@@ -27,6 +26,33 @@ h1{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+.navbar-dark .navbar-toggler{
+    color:rgba(255,255,255,.5) ;
+    border-color:rgba(255,255,255,.1) ;
+}
+@media(max-width:760px) {
+.col-lg-5{ 
+    font-size: 2.3rem;
+    text-align: left;
+    padding-top: 30px;
+    margin: auto !important;
+}
+.main h3{
+    font-size: 1.5rem;
+    text-align: left;
+    
+    margin: auto !important;
+}
+.main a{
+    padding: 10px 20px;
+    font-size: 0.9rem;
+ 
+    margin: auto !important;;
+}
+}
+
+
 .sale{
     background-color: beige;
     height: 90vh;

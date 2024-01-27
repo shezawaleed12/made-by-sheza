@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 body{
     width: 100%;
@@ -14,10 +13,13 @@ body{
 background-repeat: no-repeat;
 background-size: cover;
 }
+.navbar {
+    background-color: transparent;   
+  }
 .bgcolor.scrolled{
-    background-color:rgba(0, 0, 0, 0.692) ;
+    background-color: #333 !important;
 }
-h1{
+.main h1{
     font-family: 'Public Sans', sans-serif;
     font-family: 'Saira Stencil One', sans-serif;
     letter-spacing: 1.5px;
@@ -26,16 +28,55 @@ h1{
     font-size: 3rem;
     margin-inline-end: 0px;
 }
-
-.navbar-dark .navbar-toggler{
-    color:rgba(255,255,255,.5) ;
-    border-color:rgba(255,255,255,.1) ;
+.pro img{
+max-height: 200px;
 }
+.pro img:hover{
+    transition: 0.5s;
+    max-height: 210px;
+}
+
+.pro a{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #444 !important;
+    font-family: 'Fredoka', sans-serif;
+}
+.pro a:link{
+    text-decoration: none; 
+}
+
+.col-lg-4 p{
+    font-family: 'Changa', sans-serif;
+   
+}
+
+.map{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url(maps.jpg);
+    background-position: center;
+    height: auto;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container3{ 
+    height: 200px;
+}
+.map button{
+    padding: 10px 30px !important;
+}
+
+
+
+
+
+
+
+/* media queries */
 @media(max-width:760px) {
 .col-lg-5{ 
     font-size: 2.3rem;
     text-align: left;
-    padding-top: 30px;
+    padding-top: 40px;
     margin: auto !important;
 }
 .main h3{
@@ -48,15 +89,9 @@ h1{
     font-size: 0.9rem;
     margin: auto !important;;
 }
-
+.con h3{
+    text-align: left; 
+  
 }
 
-
-.sale{
-    background-color: beige;
-    height: 90vh;
-}
-.sale{
-    background-color: beige;
-    height: 90vh;
 }
